@@ -1,0 +1,3 @@
+[submodule "Assets/interactablescripts"]
+	path = Assets/interactablescripts
+	url = ssh://git@git.logika.tech:1001/sim/internal/unity/interactablescripts.git

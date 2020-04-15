@@ -78,6 +78,25 @@
     <Compile Include="Assets\ObserverScripts\PvoUtils.cs" />
     <Compile Include="Assets\ObserverScripts\TargetExtractor.cs" />
     <Compile Include="Assets\ObserverScripts\TargetMover.cs" />
+    <Compile Include="Assets\interactablescripts\Attributes\ConditionalFieldAttribute.cs" />
+    <Compile Include="Assets\interactablescripts\Attributes\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\interactablescripts\BaseControllers\BaseButtonController .cs" />
+    <Compile Include="Assets\interactablescripts\BaseControllers\BaseControlController.cs" />
+    <Compile Include="Assets\interactablescripts\BaseControllers\BaseRotatorController.cs" />
+    <Compile Include="Assets\interactablescripts\BaseControllers\BaseSwitchController.cs" />
+    <Compile Include="Assets\interactablescripts\MiniLampController.cs" />
+    <Compile Include="Assets\interactablescripts\MouseControllers\ButtonMouseController.cs" />
+    <Compile Include="Assets\interactablescripts\MouseControllers\RotatorMouseController.cs" />
+    <Compile Include="Assets\interactablescripts\MouseControllers\SwitchMouseController.cs" />
+    <Compile Include="Assets\interactablescripts\State\BoolState.cs" />
+    <Compile Include="Assets\interactablescripts\State\FloatState.cs" />
+    <Compile Include="Assets\interactablescripts\State\IntState.cs" />
+    <Compile Include="Assets\interactablescripts\State\State.cs" />
+    <Compile Include="Assets\interactablescripts\TouchControllers\ButtonTouchController.cs" />
+    <Compile Include="Assets\interactablescripts\TouchControllers\RotatorTouchController.cs" />
+    <Compile Include="Assets\interactablescripts\TouchControllers\SwitchTouchController.cs" />
+    <Compile Include="Assets\interactablescripts\TouchSystemListener\ITouchListener.cs" />
+    <Compile Include="Assets\interactablescripts\TouchSystemListener\TouchProcessor.cs" />
     <Compile Include="Assets\trash\User.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/_Data/unity_projects/Laboratory/Laboratory/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
