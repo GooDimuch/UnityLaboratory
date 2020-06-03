@@ -63,6 +63,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Bomber\PlayerMover.cs" />
+    <Compile Include="Assets\Coroutine\TestCoroutine.cs" />
+    <Compile Include="Assets\First\KeyboardMover.cs" />
+    <Compile Include="Assets\FlappyBird\GameController.cs" />
+    <Compile Include="Assets\FlappyBird\GameStatusMonitor.cs" />
+    <Compile Include="Assets\FlappyBird\JumpController.cs" />
+    <Compile Include="Assets\FlappyBird\LifeController.cs" />
+    <Compile Include="Assets\FlappyBird\PipeBlockController.cs" />
+    <Compile Include="Assets\FlappyBird\PipeController.cs" />
+    <Compile Include="Assets\FlappyBird\TimerMonoBehaviour.cs" />
     <Compile Include="Assets\LineRenderer\LineController.cs" />
     <Compile Include="Assets\LineRenderer\TrailController.cs" />
     <Compile Include="Assets\ObserverScripts\BaseCrewSimToUnity.cs" />
@@ -98,6 +108,7 @@
     <Compile Include="Assets\interactablescripts\TouchSystemListener\ITouchListener.cs" />
     <Compile Include="Assets\interactablescripts\TouchSystemListener\TouchProcessor.cs" />
     <Compile Include="Assets\trash\User.cs" />
+    <None Include="Assets\FlappyBird\BlurShader.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/_Data/unity_projects/Laboratory/Laboratory/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

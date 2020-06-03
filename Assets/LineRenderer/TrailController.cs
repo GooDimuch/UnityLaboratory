@@ -7,14 +7,14 @@ public class TrailController : MonoBehaviour {
 		Z
 	}
 
-	public Transform CameraTransform;
+	// public Transform CameraTransform;
 	public Material LineMaterial;
 	public float width;
 
 	private Vector3 cameraPosition;
 
 	void Start() {
-		cameraPosition = CameraTransform.position;
+		// cameraPosition = CameraTransform.position;
 		for (int i = 0; i < 1000; i++) { CreateLine(); }
 	}
 
